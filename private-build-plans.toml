@@ -225,3 +225,7 @@ angle = 9.4
 shape = "oblique"
 menu = "oblique"
 css = "oblique"
+
+# To enable TTC building, uncomment the following section and write your collect plans
+[collectPlans.NotHyprSans]
+from = ["NotHyprSans"]
