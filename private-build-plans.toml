@@ -105,7 +105,7 @@ exportGlyphNames = false
     d = "tailed-serifless"
     e = "rounded"
     f = "flat-hook-tailed-crossbar-at-x-height"
-    g = "single-storey-serifless"
+    g = "double-storey-open"
     h = "tailed-serifless"
     i = "serifless"
     j = "flat-hook-serifless"
@@ -174,10 +174,40 @@ exportGlyphNames = false
   [buildPlans.NotHyprSans.ligations]
   inherits = "dlig"
 
+[buildPlans.NotHyprSans.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
 [buildPlans.NotHyprSans.weights.Thin]
 shape = 100
 menu = 100
 css = 100
+
+[buildPlans.NotHyprSans.weights.ExtraLight]
+shape = 200
+menu = 200
+css = 200
+
+[buildPlans.NotHyprSans.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.NotHyprSans.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.NotHyprSans.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.NotHyprSans.weights.ExtraBold]
+shape = 800
+menu = 800
+css = 800
 
 [buildPlans.NotHyprSans.weights.Heavy]
 shape = 900
