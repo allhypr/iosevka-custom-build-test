@@ -76,6 +76,111 @@ exportGlyphNames = false
     lig-equal-chain = "without-notch"
     lig-hyphen-chain = "without-notch"
 
+    [buildPlans.NotHyprSans.variants.italic]
+    one = "no-base-flat-top-serif"
+    three = "flat-top-serifless"
+    four = "semi-open-non-crossing-serifless"
+    five = "upright-flat-serifless"
+    six = "straight-bar"
+    seven = "straight-serifless"
+    eight = "two-circles"
+    nine = "straight-bar"
+    zero = "diamond-dotted"
+    capital-a = "curly-serifless"
+    capital-d = "more-rounded-serifless"
+    capital-g = "toothed-serifless-hooked"
+    capital-i = "serifless"
+    capital-j = "flat-hook-serifless"
+    capital-k = "curly-serifless"
+    capital-l = "serifless"
+    capital-m = "slanted-sides-hanging-serifless"
+    capital-n = "asymmetric-serifless"
+    capital-q = "horizontal-tailed"
+    capital-r = "standing-serifless"
+    capital-v = "curly-serifless"
+    capital-w = "curly-serifless"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "curly-serifless"
+    a = "double-storey-tailed"
+    b = "toothless-corner-serifless"
+    d = "toothless-corner-serifless"
+    e = "rounded"
+    f = "flat-hook-tailed-crossbar-at-x-height"
+    g = "double-storey-open"
+    h = "tailed-motion-serifed"
+    i = "serifless"
+    j = "flat-hook-serifless"
+    k = "cursive-serifless"
+    l = "semi-tailed"
+    m = "tailed-serifless"
+    n = "tailed-serifless"
+    p = "earless-corner-serifless"
+    q = "earless-corner-tailed-serifless"
+    r = "compact-serifless"
+    t = "flat-hook"
+    u = "tailed-serifless"
+    v = "cursive-serifless"
+    w = "cursive-serifless"
+    x = "semi-chancery-curly-serifless"
+    y = "curly-serifless"
+    z = "curly-serifless"
+    long-s = "flat-hook-serifless"
+    lower-eth = "curly-bar"
+    lower-gamma = "casual"
+    capital-delta = "curly"
+    lower-delta = "flat-top"
+    lower-eta = "earless-corner-serifless"
+    lower-theta = "capsule"
+    lower-iota = "flat-tailed"
+    lower-kappa = "curly-serifless"
+    capital-lambda = "curly-serifless"
+    lower-lambda = "curly-tailed-turn"
+    lower-mu = "tailed-serifless"
+    lower-nu = "casual"
+    lower-pi = "tailed"
+    lower-tau = "flat-tailed"
+    lower-upsilon = "casual-serifless"
+    lower-phi = "cursive"
+    lower-chi = "curly-serifless"
+    lower-psi = "short-neck2-serifless"
+    partial-derivative = "curly-bar"
+    cyrl-a = "double-storey-tailed"
+    cyrl-ve = "cursive"
+    cyrl-capital-zhe = "cursive"
+    cyrl-zhe = "cursive"
+    cyrl-capital-ka = "curly-serifless"
+    cyrl-ka = "curly-serifless"
+    cyrl-el = "tailed"
+    cyrl-em = "slanted-sides-hanging-serifless"
+    cyrl-er = "earless-corner-serifless"
+    cyrl-capital-u = "curly-turn-serifless"
+    cyrl-u = "curly-turn-serifless"
+    cyrl-che = "tailed"
+    cyrl-yeri = "round"
+    cyrl-yery = "round-tailed"
+    cyrl-capital-ya = "standing-serifless"
+    cyrl-ya = "standing-serifless"
+    tittle = "square"
+    diacritic-dot = "square"
+    punctuation-dot = "square"
+    braille-dot = "square"
+    ellipsis-density = "dense"
+    asterisk = "penta-low"
+    ascii-single-quote = "straight"
+    paren = "flat-arc"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "upper-open"
+    at = "threefold"
+    cent = "open"
+    percent = "dots"
+    bar = "force-upright"
+    question = "smooth"
+    micro-sign = "toothed-serifless"
+    lig-equal-chain = "without-notch"
+    lig-hyphen-chain = "without-notch"
+
     [buildPlans.NotHyprSans.variants.oblique]
     one = "no-base-flat-top-serif"
     three = "flat-top-serifless"
@@ -174,45 +279,20 @@ exportGlyphNames = false
   [buildPlans.NotHyprSans.ligations]
   inherits = "dlig"
 
-[buildPlans.NotHyprSans.weights.Bold]
-shape = 700
-menu = 700
-css = 700
-
-[buildPlans.NotHyprSans.weights.Thin]
-shape = 100
-menu = 100
-css = 100
-
-[buildPlans.NotHyprSans.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
-
-[buildPlans.NotHyprSans.weights.Light]
-shape = 300
-menu = 300
-css = 300
-
-[buildPlans.NotHyprSans.weights.Medium]
+[buildPlans.NotHyprSans.widths.Normal]
 shape = 500
-menu = 500
-css = 500
+menu = 5
+css = "normal"
 
-[buildPlans.NotHyprSans.weights.SemiBold]
+[buildPlans.NotHyprSans.widths.Extended]
 shape = 600
-menu = 600
-css = 600
+menu = 7
+css = "expanded"
 
-[buildPlans.NotHyprSans.weights.ExtraBold]
-shape = 800
-menu = 800
-css = 800
-
-[buildPlans.NotHyprSans.weights.Heavy]
-shape = 900
-menu = 900
-css = 900
+[buildPlans.NotHyprSans.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
 
 [buildPlans.NotHyprSans.slopes.Upright]
 angle = 0
@@ -220,11 +300,11 @@ shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.NotHyprSans.slopes.Oblique]
+[buildPlans.NotHyprSans.slopes.Italic]
 angle = 9.4
-shape = "oblique"
-menu = "oblique"
-css = "oblique"
+shape = "italic"
+menu = "italic"
+css = "italic"
 
 # To enable TTC building, uncomment the following section and write your collect plans
 [collectPlans.NotHyprSans]
